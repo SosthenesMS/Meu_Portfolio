@@ -9,6 +9,8 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ *
+ *
  ************************************************************************************************
  *
  * Src menu:
@@ -11427,6 +11429,12 @@ html {
     font-size: 1.5em;
     transition: font-size 0.3s;
   }
+
+  #mainNav .navbar-brand:hover {
+    color: #1abc9c;
+    opacity: 0.80;
+  }
+
   #mainNav .navbar-nav {
     margin-top: 0;
   }
@@ -11490,7 +11498,7 @@ html {
   }
   /* Fonte do título principal abaixo da foto*/
   .masthead .masthead-heading {
-    font-size: 280%;
+    font-size: 3.2rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -11511,12 +11519,12 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.85;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
