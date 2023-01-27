@@ -16,7 +16,7 @@
  * Cor do nome navbar : linha 11.382
  * Tamanho da fonte: linha 11.412
  * Exibição da foto: linha 11.467
- * Fonto do título abaixo da foto: linda 11.478
+ * Fonte do título abaixo da foto: linda 11.478
  * Tamanho dos portifolios: linha 11.488
  * Rodapé: linha 11.500
  *
@@ -101,6 +101,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 
 hr {
   margin: 1rem 0;
